@@ -34,7 +34,10 @@ We trained and evaluated ML models on a **per-province basis**, building separat
   - Soil moisture
   - SPEI (for drought classification)
   - Others derived via feature engineering
-
+  
+Note: The raw and processed datasets are not included in this repository due to their large file sizes.
+The original raw data can be obtained from Open-Meteo or by contacting me directly.
+Feature-engineered datasets can be shared upon request.
 ---
 
 ## 🤖 Models and Results
