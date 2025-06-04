@@ -8,13 +8,11 @@ We trained and evaluated ML models on a **per-province basis**, building separat
 ---
 
 ## 📂 Repository Structure
+```bash
 ├── model_training/
 │   ├── heatwave/         # Jupyter notebooks for heatwave model training (per province)
 │   └── drought/          # Jupyter notebooks for drought model training (per province)
 │
-├── datasets/
-│   ├── raw/              # Original Open-Meteo data
-│   └── processed/        # Feature-engineered datasets
 │
 ├── trained_models/
 │   ├── heatwave/         # Trained XGBoost models (saved as .pkl)
@@ -23,10 +21,7 @@ We trained and evaluated ML models on a **per-province basis**, building separat
 ├── requirements.txt
 └── README.md
 
-
-
----
-
+```
 ## 🌐 Data Source
 
 - **Provider:** [Open-Meteo](https://open-meteo.com/)
